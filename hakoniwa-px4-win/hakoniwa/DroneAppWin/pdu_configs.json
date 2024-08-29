@@ -1,0 +1,172 @@
+[
+  {
+    "pdu_type_name": "hako_mavlink_msgs/HakoHilActuatorControls",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_mavlink_msgs/HakoHilActuatorControls.json"
+  },
+  {
+    "pdu_type_name": "HakoHilActuatorControls",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_mavlink_msgs/HakoHilActuatorControls.json"
+  },
+  {
+    "pdu_type_name": "geometry_msgs/Twist",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/geometry_msgs/Twist.json"
+  },
+  {
+    "pdu_type_name": "Twist",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/geometry_msgs/Twist.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/Collision",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/Collision.json"
+  },
+  {
+    "pdu_type_name": "Collision",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/Collision.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/ManualPosAttControl",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/ManualPosAttControl.json"
+  },
+  {
+    "pdu_type_name": "ManualPosAttControl",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/ManualPosAttControl.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/Disturbance",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/Disturbance.json"
+  },
+  {
+    "pdu_type_name": "Disturbance",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/Disturbance.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoDroneCmdTakeoff",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdTakeoff.json"
+  },
+  {
+    "pdu_type_name": "HakoDroneCmdTakeoff",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdTakeoff.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoDroneCmdMove",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdMove.json"
+  },
+  {
+    "pdu_type_name": "HakoDroneCmdMove",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdMove.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoDroneCmdLand",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdLand.json"
+  },
+  {
+    "pdu_type_name": "HakoDroneCmdLand",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoDroneCmdLand.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/GameControllerOperation",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/GameControllerOperation.json"
+  },
+  {
+    "pdu_type_name": "GameControllerOperation",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/GameControllerOperation.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoCmdCamera",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdCamera.json"
+  },
+  {
+    "pdu_type_name": "HakoCmdCamera",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdCamera.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoCameraData",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCameraData.json"
+  },
+  {
+    "pdu_type_name": "HakoCameraData",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCameraData.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoCmdCameraMove",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdCameraMove.json"
+  },
+  {
+    "pdu_type_name": "HakoCmdCameraMove",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdCameraMove.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoCameraInfo",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCameraInfo.json"
+  },
+  {
+    "pdu_type_name": "HakoCameraInfo",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCameraInfo.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoCmdMagnetHolder",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdMagnetHolder.json"
+  },
+  {
+    "pdu_type_name": "HakoCmdMagnetHolder",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoCmdMagnetHolder.json"
+  },
+  {
+    "pdu_type_name": "hako_msgs/HakoStatusMagnetHolder",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoStatusMagnetHolder.json"
+  },
+  {
+    "pdu_type_name": "HakoStatusMagnetHolder",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/hako_msgs/HakoStatusMagnetHolder.json"
+  },
+  {
+    "pdu_type_name": "sensor_msgs/PointCloud2",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/sensor_msgs/PointCloud2.json"
+  },
+  {
+    "pdu_type_name": "PointCloud2",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/sensor_msgs/PointCloud2.json"
+  },
+  {
+    "pdu_type_name": "time",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/builtin_interfaces/Time.json"
+  },
+  {
+    "pdu_type_name": "HakoniwaSimTime",
+    "fields": null,
+    "pdu_data_field_path": "./HakoniwaSimTime.json"
+  }
+]

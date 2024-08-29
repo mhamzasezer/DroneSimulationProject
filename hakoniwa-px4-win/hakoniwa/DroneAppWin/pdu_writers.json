@@ -1,0 +1,65 @@
+[
+  {
+    "name": "DroneTransporter_drone_collisionPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/Collision",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_disturbancePdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/Disturbance",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_camera_dataPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoCameraData",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_cmd_camera_infoPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoCameraInfo",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_status_magnet_holderPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoStatusMagnetHolder",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_lidar_pointsPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "sensor_msgs/PointCloud2",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_lidar_posPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "geometry_msgs/Twist",
+    "topic_message_name": null
+  }
+]

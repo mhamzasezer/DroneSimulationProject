@@ -1,0 +1,92 @@
+[
+  {
+    "name": "DroneTransporter_drone_motorPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_mavlink_msgs/HakoHilActuatorControls",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_posPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "geometry_msgs/Twist",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_manual_pos_att_controlPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/ManualPosAttControl",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_cmd_takeoffPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoDroneCmdTakeoff",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_cmd_movePdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoDroneCmdMove",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_drone_cmd_landPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoDroneCmdLand",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_cmd_gamePdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/GameControllerOperation",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_cmd_cameraPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoCmdCamera",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_cmd_camera_movePdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoCmdCameraMove",
+    "topic_message_name": null
+  },
+  {
+    "name": "DroneTransporter_hako_cmd_magnet_holderPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "hako_msgs/HakoCmdMagnetHolder",
+    "topic_message_name": null
+  }
+]

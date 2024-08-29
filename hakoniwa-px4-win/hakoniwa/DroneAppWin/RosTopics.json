@@ -1,0 +1,158 @@
+{
+  "robot_num": 1,
+  "ros_robot_num": 0,
+  "hakoenv_num": 0,
+  "fields": [
+    {
+      "topic_message_name": "DroneTransporter_drone_motor",
+      "topic_type_name": "hako_mavlink_msgs/HakoHilActuatorControls",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_pos",
+      "topic_type_name": "geometry_msgs/Twist",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_collision",
+      "topic_type_name": "hako_msgs/Collision",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_manual_pos_att_control",
+      "topic_type_name": "hako_msgs/ManualPosAttControl",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_disturbance",
+      "topic_type_name": "hako_msgs/Disturbance",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_cmd_takeoff",
+      "topic_type_name": "hako_msgs/HakoDroneCmdTakeoff",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_cmd_move",
+      "topic_type_name": "hako_msgs/HakoDroneCmdMove",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_drone_cmd_land",
+      "topic_type_name": "hako_msgs/HakoDroneCmdLand",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_cmd_game",
+      "topic_type_name": "hako_msgs/GameControllerOperation",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_cmd_camera",
+      "topic_type_name": "hako_msgs/HakoCmdCamera",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_camera_data",
+      "topic_type_name": "hako_msgs/HakoCameraData",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_cmd_camera_move",
+      "topic_type_name": "hako_msgs/HakoCmdCameraMove",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_cmd_camera_info",
+      "topic_type_name": "hako_msgs/HakoCameraInfo",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_cmd_magnet_holder",
+      "topic_type_name": "hako_msgs/HakoCmdMagnetHolder",
+      "robot_name": "DroneTransporter",
+      "sub": true,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_hako_status_magnet_holder",
+      "topic_type_name": "hako_msgs/HakoStatusMagnetHolder",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_lidar_points",
+      "topic_type_name": "sensor_msgs/PointCloud2",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    },
+    {
+      "topic_message_name": "DroneTransporter_lidar_pos",
+      "topic_type_name": "geometry_msgs/Twist",
+      "robot_name": "DroneTransporter",
+      "sub": false,
+      "pub_option": {
+        "cycle_scale": 1,
+        "latch": false,
+        "queue_size": 1
+      }
+    }
+  ]
+}

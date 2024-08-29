@@ -1,0 +1,52 @@
+[
+  {
+    "name": "custom_reader_connector_0",
+    "pdu_name": "DroneTransporter_drone_motorPdu",
+    "method_name": "DroneTransporterShmReader0"
+  },
+  {
+    "name": "custom_reader_connector_1",
+    "pdu_name": "DroneTransporter_drone_posPdu",
+    "method_name": "DroneTransporterShmReader1"
+  },
+  {
+    "name": "custom_reader_connector_2",
+    "pdu_name": "DroneTransporter_drone_manual_pos_att_controlPdu",
+    "method_name": "DroneTransporterShmReader3"
+  },
+  {
+    "name": "custom_reader_connector_3",
+    "pdu_name": "DroneTransporter_drone_cmd_takeoffPdu",
+    "method_name": "DroneTransporterShmReader5"
+  },
+  {
+    "name": "custom_reader_connector_4",
+    "pdu_name": "DroneTransporter_drone_cmd_movePdu",
+    "method_name": "DroneTransporterShmReader6"
+  },
+  {
+    "name": "custom_reader_connector_5",
+    "pdu_name": "DroneTransporter_drone_cmd_landPdu",
+    "method_name": "DroneTransporterShmReader7"
+  },
+  {
+    "name": "custom_reader_connector_6",
+    "pdu_name": "DroneTransporter_hako_cmd_gamePdu",
+    "method_name": "DroneTransporterShmReader8"
+  },
+  {
+    "name": "custom_reader_connector_7",
+    "pdu_name": "DroneTransporter_hako_cmd_cameraPdu",
+    "method_name": "DroneTransporterShmReader9"
+  },
+  {
+    "name": "custom_reader_connector_8",
+    "pdu_name": "DroneTransporter_hako_cmd_camera_movePdu",
+    "method_name": "DroneTransporterShmReader11"
+  },
+  {
+    "name": "custom_reader_connector_9",
+    "pdu_name": "DroneTransporter_hako_cmd_magnet_holderPdu",
+    "method_name": "DroneTransporterShmReader13"
+  }
+]

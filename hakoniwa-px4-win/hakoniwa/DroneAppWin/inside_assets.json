@@ -1,0 +1,27 @@
+[
+  {
+    "name": "DroneTransporter",
+    "pdu_writer_names": [
+      "DroneTransporter_drone_collisionPdu",
+      "DroneTransporter_drone_disturbancePdu",
+      "DroneTransporter_hako_camera_dataPdu",
+      "DroneTransporter_hako_cmd_camera_infoPdu",
+      "DroneTransporter_hako_status_magnet_holderPdu",
+      "DroneTransporter_lidar_pointsPdu",
+      "DroneTransporter_lidar_posPdu"
+    ],
+    "pdu_reader_names": [
+      "DroneTransporter_drone_motorPdu",
+      "DroneTransporter_drone_posPdu",
+      "DroneTransporter_drone_manual_pos_att_controlPdu",
+      "DroneTransporter_drone_cmd_takeoffPdu",
+      "DroneTransporter_drone_cmd_movePdu",
+      "DroneTransporter_drone_cmd_landPdu",
+      "DroneTransporter_hako_cmd_gamePdu",
+      "DroneTransporter_hako_cmd_cameraPdu",
+      "DroneTransporter_hako_cmd_camera_movePdu",
+      "DroneTransporter_hako_cmd_magnet_holderPdu"
+    ],
+    "core_class_name": null
+  }
+]

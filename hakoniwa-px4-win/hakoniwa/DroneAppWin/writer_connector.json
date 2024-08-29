@@ -1,0 +1,37 @@
+[
+  {
+    "name": "custom_writer_connector_0",
+    "pdu_name": "DroneTransporter_drone_collisionPdu",
+    "method_name": "DroneTransporterShmWriter2"
+  },
+  {
+    "name": "custom_writer_connector_1",
+    "pdu_name": "DroneTransporter_drone_disturbancePdu",
+    "method_name": "DroneTransporterShmWriter4"
+  },
+  {
+    "name": "custom_writer_connector_2",
+    "pdu_name": "DroneTransporter_hako_camera_dataPdu",
+    "method_name": "DroneTransporterShmWriter10"
+  },
+  {
+    "name": "custom_writer_connector_3",
+    "pdu_name": "DroneTransporter_hako_cmd_camera_infoPdu",
+    "method_name": "DroneTransporterShmWriter12"
+  },
+  {
+    "name": "custom_writer_connector_4",
+    "pdu_name": "DroneTransporter_hako_status_magnet_holderPdu",
+    "method_name": "DroneTransporterShmWriter14"
+  },
+  {
+    "name": "custom_writer_connector_5",
+    "pdu_name": "DroneTransporter_lidar_pointsPdu",
+    "method_name": "DroneTransporterShmWriter15"
+  },
+  {
+    "name": "custom_writer_connector_6",
+    "pdu_name": "DroneTransporter_lidar_posPdu",
+    "method_name": "DroneTransporterShmWriter16"
+  }
+]

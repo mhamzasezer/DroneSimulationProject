@@ -1,0 +1,121 @@
+[
+  {
+    "method_name": "DroneTransporterShmReader0",
+    "asset_name": "DroneTransporter",
+    "channel_id": 0,
+    "iosize": 112,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader1",
+    "asset_name": "DroneTransporter",
+    "channel_id": 1,
+    "iosize": 72,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader3",
+    "asset_name": "DroneTransporter",
+    "channel_id": 3,
+    "iosize": 80,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader5",
+    "asset_name": "DroneTransporter",
+    "channel_id": 5,
+    "iosize": 64,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader6",
+    "asset_name": "DroneTransporter",
+    "channel_id": 6,
+    "iosize": 80,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader7",
+    "asset_name": "DroneTransporter",
+    "channel_id": 7,
+    "iosize": 64,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader8",
+    "asset_name": "DroneTransporter",
+    "channel_id": 8,
+    "iosize": 136,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader9",
+    "asset_name": "DroneTransporter",
+    "channel_id": 9,
+    "iosize": 44,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader11",
+    "asset_name": "DroneTransporter",
+    "channel_id": 11,
+    "iosize": 64,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmReader13",
+    "asset_name": "DroneTransporter",
+    "channel_id": 13,
+    "iosize": 40,
+    "is_read": true
+  },
+  {
+    "method_name": "DroneTransporterShmWriter2",
+    "asset_name": "DroneTransporter",
+    "channel_id": 2,
+    "iosize": 304,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter4",
+    "asset_name": "DroneTransporter",
+    "channel_id": 4,
+    "iosize": 32,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter10",
+    "asset_name": "DroneTransporter",
+    "channel_id": 10,
+    "iosize": 102968,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter12",
+    "asset_name": "DroneTransporter",
+    "channel_id": 12,
+    "iosize": 56,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter14",
+    "asset_name": "DroneTransporter",
+    "channel_id": 14,
+    "iosize": 32,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter15",
+    "asset_name": "DroneTransporter",
+    "channel_id": 15,
+    "iosize": 177400,
+    "is_read": false
+  },
+  {
+    "method_name": "DroneTransporterShmWriter16",
+    "asset_name": "DroneTransporter",
+    "channel_id": 16,
+    "iosize": 72,
+    "is_read": false
+  }
+]
