@@ -9,26 +9,29 @@ import numpy
 import pprint
 
 def transport(client, baggage_pos, transfer_pos):
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 7, 0, -90)#商品受け渡し場所
-    #client.grab_baggage(True)
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 7, 0, -180)
+    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 5, 0, -90)#商品受け渡し場所
+    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 5, 0, -180)
+    time.sleep(3)
+    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 10, 0, -180) 
+    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 10, 1,-180)#中継地点
+    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 10, 1,-90)
+    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3.5, 0.1,-90)
+    time.sleep(5)
+    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 10, 0.1,-90)
+    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 10, 1,-180)
+    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 10, 1, -180)
     client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 10, 0, -180)
-    #client.moveToPosition(9,37,7,3,0) 
-    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 10, 1)#中継地点
-    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3.5, 0.1)
-    #client.moveToPosition(-3.5,29,3.5,3,180)#中継地点
+    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 5, 0, -180)
+    #client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 0, -90)#z,x,y,speed,angle
+    #client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 5)
+    #client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 5, 0)
+    #client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 0.5, 0.01, 0)
+    #client.grab_baggage(True)
+    #client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 0.01)
+    #client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3, 0.1)
+    #client.moveToPosition(transfer_pos['x'], transfer_pos['y'], transfer_pos['z'], 0.01)
     #client.grab_baggage(False)
-    client.land()
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 0, -90)#z,x,y,speed,angle
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 5)
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 5, 0)
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 0.5, 0.01, 0)
-    client.grab_baggage(True)
-    client.moveToPosition(baggage_pos['x'], baggage_pos['y'], 3, 0.01)
-    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3, 0.1)
-    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], transfer_pos['z'], 0.01)
-    client.grab_baggage(False)
-    client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3, 0.01)
+    #client.moveToPosition(transfer_pos['x'], transfer_pos['y'], 3, 0.01)
 
 def debug_pos(client):
     pose = client.simGetVehiclePose()
@@ -72,12 +75,11 @@ def main():
 
         print(filtered_points)
 
-    client.takeoff(7)#書き換えた
-    #client.moveToPosition(0, -3, 0, 5)#加えた
+    client.takeoff(5)
 
 
-    baggage_pos = { "x": 9, "y": 37 }
-    transfer_pos = { "x": -3.5, "y": 29, "z": 3.5 }
+    baggage_pos = { "x": 9, "y": 37 }#9,37
+    transfer_pos = { "x": -5, "y": 28, "z": 3.5 }
     transport(client, baggage_pos, transfer_pos)
     debug_pos(client)
 
